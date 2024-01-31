@@ -1,4 +1,16 @@
 .appartments {
+        position: relative;
+
+    &::after {
+        content: "III";
+
+        top: 0;
+        right: calc(50% + 555px);
+        transform: translate(50%, 0%);
+        line-height: 1.15;
+
+        @include decorNumber; 
+    }
 
 }
 
