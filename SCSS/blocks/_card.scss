@@ -60,4 +60,10 @@
     z-index: 9;
     font-size: 24px;
 
+    @include mediaTablet {
+       font-size: 20px;
+       left: 35px;
+       bottom: 30px;
+    }
+
 }
